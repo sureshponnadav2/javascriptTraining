@@ -1,0 +1,37 @@
+.container {
+    background: #f5f5f5;
+    padding: 60px;
+    width: 500px;
+    border-radius: 7px;
+    margin: 46px auto;
+    box-shadow: 0 0 5px 0px #3a3434c7;
+    text-align: center;
+}
+.btn {
+    background: #0097a7;
+    border: 1px solid #0097a7;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #0097a7;
+}
+input#inputId {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #0097a7;
+}
+input:focus-visible {
+    outline: 3px;
+    box-shadow:  0 0 3px #000;
+}
+label{
+    color: #7e57c2;
+    font-size: 18px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,79 @@
+competations = [
+
+    ["C#", "HTML"],
+    ["HTML", "Python"],
+    ["Python", "C#"]
+]
+
+
+result = [0, 0, 1]
+
+
+
+function (competations[][], result[]) {
+    ...
+}
+
+
+// 1. uniqueElements = { c#:0, javascript: 0, java: 0 };
+
+// 2. iterate over the arry of elements and based on the result section update the values in uniqueElements obj
+
+// 3. from uniqueElements winner will be with greater value
+
+
+// object constructor
+function Employee(firstName, lastName, empId, age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.empId = empId;
+    this.age = age;
+};
+
+// prototype
+
+Employee.prototype.section = 'IT';
+
+
+const emp1 = new Employee('Swapnil', 'Pune', 007, 30);
+
+emp1.location = 'India';
+console.log(emp1);
+
+const emp2 = new Employee('Raj', 'Pune', 007, 30);
+
+console.log(emp2);
+
+
+
+
+function returnPromise() {
+  var newPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log("Promise executed");
+      resolve("promise resolved");
+    }, 3000);
+  });
+  return newPromise;
+}
+
+
+// with the .then method
+function executePromise() {
+  const newData = 'swapnil';
+  returnPromise().then((res) => {
+    console.log(res);
+  });
+  console.log(newData);
+}
+
+// this is with the async await function
+// async function executePromise() {
+//   const newData = 'swapnil';
+//   const result = await returnPromise();
+//   console.log(newData);
+//   console.log(result);
+// }
+
+
+executePromise();
